@@ -1,0 +1,20 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"> 
+
+  <!-- <circle cx="150" cy="100" r="80" fill="green" />
+  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text> -->
+
+
+  <!-- <rect x="70" y="70" width="160" height="160" fill="black" /> -->
+  <!-- <text x="150" y="160" font-size="60" text-anchor="middle" fill="orange">yay</text> -->
+
+  <!-- <polygon points="150, 18 244, 182 56, 182" fill="blue" /> -->
+  <!-- <text x="150" y="160" font-size="60" text-anchor="middle" fill="brown">hey</text> -->
+
+  <rect x="100" y="100" width="160" height="160" fill="green" /> 
+  <circle cx="180" cy="180" r="80" fill="red" />
+  <polygon points="180,50 100,210 260,210" fill="blue" />
+  
+  <text x="180" y="180" font-size="60" text-anchor="middle" fill="yellow">hey</text>
+
+
+</svg> 

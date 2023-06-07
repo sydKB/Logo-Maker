@@ -1,7 +1,7 @@
 // Packages used 
 const fs = require('fs');
 const inquirer = require("inquirer");
-const generateMarkdown = require("./examples/generateMarkdown");
+const generateSVG = require("./generateSVG.js");
 
 // Array of questions about logo details
 const questions = [
@@ -31,16 +31,15 @@ const questions = [
 // This function writes user data to the chosen file and throws errors
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err)=> {
-        err ? console.log(err) : console.log(data);
+        err ? console.log(err) : console.log("Generated logo.svg");
     }); 
 }
 
 // This function collects the user-prompted data and uses it to write to a file
 function init() {
     inquirer.prompt(questions).then(function(answers) {
-        const markdownText = generateMarkdown(answers);
-        writeToFile(`./examples/logo.txt`, markdownText);
-        
+        const svgText = generateSVG(answers);
+        writeToFile(`./examples/logo.svg`, svgText);
     });
 }
 

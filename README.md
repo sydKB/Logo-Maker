@@ -1,4 +1,6 @@
 # 10 Object-oriented Programming: SVG Logo Maker
+## demo vid
+![demo vid](./examples/demo.gif)
 
 ## Your Task
 
